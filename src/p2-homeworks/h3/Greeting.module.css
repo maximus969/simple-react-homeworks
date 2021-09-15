@@ -1,0 +1,33 @@
+.greeting {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+}
+
+.input {
+  border: 2px solid rgba(44, 29, 253, 0.575);
+  border-radius: 3px;
+}
+
+.errorInput {
+  border: 1px solid red;
+  border-radius: 3px;
+}
+
+.errorInput:focus {
+  border: 1px solid red;
+  border-radius: 3px;
+  outline: none;
+}
+
+.button {
+    height: 20px;
+}

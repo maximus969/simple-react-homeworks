@@ -1,0 +1,38 @@
+@keyframes blink {
+	0% {opacity: 0}
+	49%{opacity: 0}
+	50% {opacity: 1}
+}
+
+blink{animation: blink 1s infinite;}
+
+.default {
+    background: #003300;
+    color: #99ff99;
+    outline: none;
+}
+
+.red {
+    background: red;
+}
+
+.button {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: 1px solid #99ff99;
+}
+
+.button:active {
+    background: #99ff99;
+}
+
+.button:disabled {
+    color: #005500;
+    cursor: auto;
+}
+

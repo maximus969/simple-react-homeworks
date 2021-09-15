@@ -1,0 +1,13 @@
+.block {
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    font-size: 100px;
+}
+
+.name {
+    font-size: 50px;
+}

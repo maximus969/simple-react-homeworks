@@ -21,3 +21,11 @@
 .some-text {
     color: darkslateblue;
 }
+
+.green {
+    background: rgb(163, 231, 163);
+}
+
+.green-text {
+    color: rgb(131, 118, 216);
+}
